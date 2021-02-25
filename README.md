@@ -11,11 +11,11 @@ Run `ng serve` for a dev server.
 Navigate to `http://localhost:4200/`. 
 
 Commands:
-PLACE X,Y,F (where x and y are 0-4 and F is NORTH,EAST,SOUTH,WEST)
-MOVE
-RIGHT
-LEFT
-REPORT
+* PLACE X,Y,F (where x and y are 0-4 and F is NORTH,EAST,SOUTH,WEST)
+* MOVE
+* RIGHT
+* LEFT
+* REPORT
 
 You can copy and paste sample commands from the file: sample_run.txt
 
