@@ -1,0 +1,50 @@
+.output-window {
+    height:80px;
+    width: 505px;
+    border:1px solid #000000;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    font-size: 12px;
+    overflow:auto;
+    white-space: pre-wrap;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+    padding: 3px;
+}
+
+.output-label {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.command-input {
+    width: 505px;
+    height: 150px;
+}
+
+.command-label {
+    font-weight: bold;
+}
+
+.button-div {
+    text-align: right;
+    width: 512px;
+}
+
+.run-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+
+button:disabled,
+button[disabled]{
+  background-color: #cccccc;
+  color: #666666;
+}

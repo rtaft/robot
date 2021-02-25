@@ -1,0 +1,7 @@
+<table class="table-surface">
+    <tr *ngFor="let something of [].constructor(tableSize); let y = index;">
+        <td [className]="(x + y) % 2 == 1 ? 'odd' : 'even'" *ngFor="let nothing of [].constructor(tableSize); let x = index;">
+            <div *ngIf="robot && x == robot.x && tableSize-y-1 == robot.y"  [className]="getRobotClass()"><fa-icon [icon]="faRobot"></fa-icon></div>
+        </td>
+    </tr>
+</table>

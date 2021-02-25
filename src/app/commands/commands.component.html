@@ -1,0 +1,5 @@
+<div class="command-label">Enter Commands:</div>
+<div><textarea [(ngModel)]="commands" class="command-input"></textarea></div>
+<div class="button-div"><button class="run-button" (click)="runCommands()" [disabled]="commandList.length > 0">Run</button></div>
+<div class="output-label">Output:</div>
+<div class="output-window" #scrollwindow>{{ output }}</div>
